@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "file_evaluation", "file_evaluation\file_evaluation.csproj", "{147A27DC-3AE3-47EC-B853-65ED01DEE33C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3C12CAF6-66E1-43D1-A97A-E4A10EE98EA4} = {3C12CAF6-66E1-43D1-A97A-E4A10EE98EA4}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "evaluator", "evaluator\evaluator.csproj", "{5A0514D4-79B8-4355-A062-D881D0900EA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroundednessDetection", "GroundednessDetection\GroundednessDetection.csproj", "{3C12CAF6-66E1-43D1-A97A-E4A10EE98EA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{147A27DC-3AE3-47EC-B853-65ED01DEE33C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{147A27DC-3AE3-47EC-B853-65ED01DEE33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{147A27DC-3AE3-47EC-B853-65ED01DEE33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{147A27DC-3AE3-47EC-B853-65ED01DEE33C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0514D4-79B8-4355-A062-D881D0900EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0514D4-79B8-4355-A062-D881D0900EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0514D4-79B8-4355-A062-D881D0900EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0514D4-79B8-4355-A062-D881D0900EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C12CAF6-66E1-43D1-A97A-E4A10EE98EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C12CAF6-66E1-43D1-A97A-E4A10EE98EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C12CAF6-66E1-43D1-A97A-E4A10EE98EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C12CAF6-66E1-43D1-A97A-E4A10EE98EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDD919B9-3EC8-44C5-AC18-95147B1220DF}
+	EndGlobalSection
+EndGlobal
